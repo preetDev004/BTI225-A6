@@ -6,7 +6,10 @@
     <meta name="author" content="Your Name" />
     <title>DesiTunes</title>
 
-    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,18 +38,33 @@
 
       <!-- Dynamically update the cards to show 1 card per song for the selected artist-->
       <div id="card-container"></div>
-      
+
       <div class="hidden" id="song-form">
         <h3>Edit Song</h3>
         <form id="form">
           <input class="hidden" id="songID" />
           <input class="hidden" id="artistID" />
           <label for="title">Title:</label>
-          <input id="title" type="text" placeholder="Enter the Title" id="title" />
+          <input
+            id="title"
+            type="text"
+            placeholder="Enter the Title"
+            id="title"
+          />
           <label for="year">Year:</label>
-          <input id="year" type="number" placeholder="Enter the Year" id="year" />
+          <input
+            id="year"
+            type="number"
+            placeholder="Enter the Year"
+            id="year"
+          />
           <label for="duration">Duration:</label>
-          <input id="duration" type="number" placeholder="Enter the Duration" id="duration" />
+          <input
+            id="duration"
+            type="number"
+            placeholder="Enter the Duration"
+            id="duration"
+          />
           <button type="submit">Update the song</button>
         </form>
       </div>
