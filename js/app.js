@@ -1,7 +1,7 @@
 /* ********* 
 
   BTI225 – Assignment 06
-  Published Site: 
+  Published Site: https://bti225-a6.netlify.app/
 
   I declare that this assignment is my own work in accordance with
   Seneca Academic Policy. No part of this assignment has been
@@ -17,8 +17,8 @@
 ********* */
 
 const { artists, songs } = window;
-
 console.log({ artists, songs }, "App Data");
+
 
 function buildMenu() {
   let menu = document.getElementById("menu");
